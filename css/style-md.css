@@ -1,4 +1,4 @@
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 613px) {
 /*
 
 Main Navigation
@@ -43,8 +43,8 @@ Portfolio
     
     #section-portfolio_gallery_content figure {
         width: 16em;
-        height: auto;
-        max-height: 25em;
+        height: 20em;
+        margin: 0.5em;
         border: 0.10em solid black;
     }
     
@@ -54,9 +54,14 @@ Portfolio
         font-size: 1em;
     }
     
+    .section-portfolio_gallery_content_fig-title {
+        font-weight: 1000;
+        font-size: 1.3em;
+    }
+    
     #section-portfolio_gallery_content figure > div {
         width: 100%;
-        height: 10em;
+        height: 50%;
     }
 /*
 

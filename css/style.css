@@ -110,6 +110,9 @@ Portfolio
 }
 
 #section-portfolio_gallery_content {
+    display: flex;
+    flex-wrap: wrap;
+    
     position: relative;
     
     padding: 1em;
@@ -117,6 +120,7 @@ Portfolio
 }
 
 #section-portfolio_gallery_content > p {
+    width: 100%;
     margin-top: 0;
 }
 
@@ -139,13 +143,16 @@ Portfolio
 }
 
 #section-portfolio_gallery_content a:hover figcaption {
+    text-decoration: none;
+}
+
+#section-portfolio_gallery_content a:hover .section-portfolio_gallery_content_fig-title {
     text-decoration: underline;
 }
 
-
 #section-portfolio_gallery_content figure {
     margin: 0;
-    height: 15em;
+    height: auto;
     padding: 1em;
 }
 
@@ -153,11 +160,16 @@ Portfolio
     padding: 1em;
     padding-left: 0em;
     padding-bottom: 0em;
+    
+    overflow-y: scroll;
+    
+    font-size: 2em;
 }
+
 
 #section-portfolio_gallery_content figure > div {
     width: 100%;
-    height: 80%;
+    height: 15em;
     
     background-size: 100%;
     background-repeat: no-repeat;

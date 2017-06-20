@@ -1,4 +1,4 @@
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 613px) {
 /*
 
 Main Navigation
@@ -36,6 +36,11 @@ Main Navigation
     #main-nav_menu.open {
     }
     
+/*
+
+Portfolio
+
+*/
     
     #section-portfolio_gallery_content a,
     #section-portfolio_gallery_content a:visited,
@@ -51,8 +56,15 @@ Main Navigation
     #section-portfolio_gallery_content a:hover > figure {
         border: 0.10em solid rgb(196, 196, 196);
     }
-
-
+    
+    #section-portfolio_gallery_content figure > figcaption {
+        font-size: 1em;
+    }
+    
+    .section-portfolio_gallery_content_fig-title {
+        font-weight: 1000;
+        font-size: 1.3em;
+    }
     
 /*
 
