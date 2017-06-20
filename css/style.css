@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+h1,h2, p, a, li, figcaption {
+/*    font-family: 'Playfair Display', serif;*/
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+section {
+    border-top: 0.7em solid black;
+    padding: 1em 0.5em;
+}
+
+/*
+
+Main Navigation
+
+*/
+
+#main-nav {
+    position: relative;
+    
+    height: 1em;
+    padding: 1em 0.5em 2.8em 0.5em;
+    margin-bottom: 0em;
+    
+    overflow: hidden;
+    
+    transition: height 1s;
+}
+
+
+
+#main-nav_title {
+    position: absolute;
+    top: 0.5em;
+    left: 0.2em;
+    
+    padding: 0;
+    margin: 0;
+    
+    font-size: 2em;
+}
+
+#main-nav_burger {
+    position: absolute;
+    top: 0em;
+    right: 0.25em;
+    
+    padding: 0 0.3em;
+    margin: 0;
+    border: 0.08em solid black;
+    
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+#main-nav_menu {
+    list-style: none;
+}
+
+#main-nav_menu > li a,
+#main-nav_menu > li a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#main-nav_menu > li a:hover {
+    text-decoration: underline;
+}
+
+/*
+
+About
+
+*/
+
+
+#section-about_photo {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#section-about_photo > img {
+    width: 100%;
+    padding: 0.8em;
+    border: 0.20em solid black;
+}
+
+
+/*
+
+Portfolio
+
+*/
+
+
+#section-portfolio_gallery > nav ul {
+    list-style: none;
+}
+
+#section-portfolio_gallery_content {
+    position: relative;
+    
+    padding: 1em;
+    border: 0.20em solid black;
+}
+
+#section-portfolio_gallery_content > p {
+    margin-top: 0;
+}
+
+#section-portfolio_gallery_content a,
+#section-portfolio_gallery_content a:visited,
+#section-portfolio_gallery_content a:hover {
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    padding: 0;
+    
+    text-decoration: none;
+    color: black;
+}
+
+#section-portfolio_gallery_content a:hover figure {
+    border-color: rgb(196, 196, 196);
+    
+}
+
+#section-portfolio_gallery_content a:hover figcaption {
+    text-decoration: underline;
+}
+
+
+#section-portfolio_gallery_content figure {
+    margin: 0;
+    height: 15em;
+    padding: 1em;
+}
+
+#section-portfolio_gallery_content figure > figcaption {
+    padding: 1em;
+    padding-left: 0em;
+    padding-bottom: 0em;
+}
+
+#section-portfolio_gallery_content figure > div {
+    width: 100%;
+    height: 80%;
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    
+}
+
+
+
+/*
+
+Contact
+
+*/
+
+
+
+#section-contact_media-icons {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-contact_media-icons > a,
+#section-contact_media-icons > a:hover,
+#section-contact_media-icons > a:visited {
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-decoration: none;
+    color: black;
+}
+
+#section-contact_media-icons > a:hover > figure {
+    border-color: rgb( 196, 196, 196 );
+}
+
+#section-contact_media-icons > a:hover > figure > figcaption {
+    text-decoration: underline;
+}
+
+#section-contact_media-icons figure {
+    margin: 0;
+    border: 0.2em solid black;
+} 
+
+
+
+#section-contact_media-icons figure > img {
+    max-width: 150px;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

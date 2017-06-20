@@ -1,0 +1,94 @@
+@media screen and (max-width: 580px) {
+/*
+
+Main Navigation
+
+*/
+    
+    
+    #main-nav_menu {
+        position: relative;
+        top: 1.8em;
+    
+        width: 100%;
+        padding: 0;
+        margin-bottom: 2em;
+        border: 0.16em solid black;
+    }
+    
+    #main-nav.open {
+        transition: height 1s;
+        height: 17.2em;
+    }
+
+    
+    #main-nav_menu li {
+        padding: 1.5em;
+        border-bottom: 0.01em solid black;
+    }
+    
+    #main-nav_menu li:last-of-type {
+        border-bottom: none;
+        width: 100%;
+        left: 0em;
+    }
+    
+    #main-nav_menu.open {
+    }
+    
+    
+    #section-portfolio_gallery_content a,
+    #section-portfolio_gallery_content a:visited,
+    #section-portfolio_gallery_content a:hover {
+        width: 100%
+    }
+    
+    #section-portfolio_gallery_content a:hover > figure {
+        border: 0.10em solid rgb(196, 196, 196);
+    }
+
+
+    
+/*
+
+Contact
+
+*/
+    #section-contact_media-icons > a,
+    #section-contact_media-icons > a:hover,
+    #section-contact_media-icons > a:visited {
+        display: inline;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+    
+    #section-contact_media-icons figure {
+        position: relative;
+        width: 100%;
+    }
+    
+    #section-contact_media-icons figure > figcaption {
+        display: inline;
+        position: absolute;
+        top: 50%;
+        right: -15%;
+        transform: translate(-50%, -50%);
+        text-align: right;
+        
+        width: 50%;
+        padding-right: 0;
+        
+        font-size: 3em;
+    }
+    
+    #section-contact_media-icons figure > img {
+        display: inline;
+        position: relative;
+        top: 50%;
+        left: 0em;
+        
+        width: 50%;
+    }
+    
+    
+}
