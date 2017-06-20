@@ -64,6 +64,8 @@ Contact
     
     #section-contact_media-icons figure {
         position: relative;
+        
+        margin: 0;
         width: 100%;
     }
     
