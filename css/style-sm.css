@@ -43,6 +43,11 @@ Main Navigation
         width: 100%
     }
     
+    #section-portfolio_gallery_content a > figure {
+        border: 0.10em solid black;
+        margin: 0.5em;
+    }
+    
     #section-portfolio_gallery_content a:hover > figure {
         border: 0.10em solid rgb(196, 196, 196);
     }
